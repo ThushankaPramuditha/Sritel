@@ -1,0 +1,22 @@
+{
+	"name": "package-service",
+	"version": "1.0.0",
+	"description": "Service for managing packages and user package activations",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js",
+		"dev": "nodemon server"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"mongoose": "^7.0.0",
+		"nodemon": "^3.0.1",
+		"package-service": "file:",
+		"packageservice": "file:",
+		"packageService": "file:"
+	},
+	"devDependencies": {
+		"concurrently": "^8.2.2"
+	}
+}
